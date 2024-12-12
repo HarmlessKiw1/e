@@ -1,0 +1,36 @@
+input,
+button{
+    display: block;
+    color: rgb(5, 166, 5);
+}
+
+input {
+    margin: 10px auto 10px auto;
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    display: block;
+    text-align: center;
+}
+p{
+    border: 1px solid rgb(5, 166, 5);
+    width: fit-content;
+    margin: 10px auto 10px auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 166, 5);
+    background-color: rgb(128, 0, 0);
+}
+#result{
+    visibility: hidden;
+}
+#visible{
+    visibility: visible;
+}

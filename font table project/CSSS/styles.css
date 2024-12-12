@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.a{
+    writing-mode: vertical-lr;
+    height:150px;
+    transform: rotate(180deg);
+    padding:15px 20px 0px 20px;
+}
+.b {
+    border-top: 1px solid rgb(244, 250, 245);
+    text-align: center;
+}
+.d{
+    padding:15px 171px 15px 171px;
+}
+.e{
+    padding:15px 167px 15px 169px;
+    border-right: 2px solid #000;
+}
+.f{
+    border-left:2px solid #000;
+}
+.g{
+    text-align: center;
+    padding: 14px 0px 14px 0px;
+    background-color: rgba(180, 240, 255, 0.7);
+}
+.h{
+    border-bottom: 1px solid rgb(244, 250, 245);
+}
+.i{
+    border-right: 2px solid #000;
+    border-top: 1px solid rgb(244, 250, 245);
+    border-left: 1px solid rgb(244, 250, 245);
+    border-bottom: 1px solid rgb(244, 250, 245);
+    padding-right:200px;
+}
+.j{
+    border-bottom:1px solid #000;
+    border-right:2px solid #000
+}
+.k{
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 1px solid rgb(244, 250, 245);
+    padding-right:50px ;
+}
+.l{
+    border-right:2px solid #000
+}
+.a, .k, .b, .i{
+    background-color:rgb(244, 250, 245);
+}

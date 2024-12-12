@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="integer">
+    <p id="text" style="width: 172px; text-align: center; color: rgb(13, 156, 147); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 18px; font-weight: 500;"></p>
+    <p id="text"
+        style="width: 172px; text-align: center; color: rgb(13, 156, 147); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 18px; font-weight: 500;">
+    </p>
+    <button id="button" onclick="evenOrOdd()"   style="margin-left: 50px;">Push Me</button>
+
+    <script>
+        function evenOrOdd() {
+            let x = parseInt(document.getElementById("integer").value);
+        if (x % 2 === 0) {
+               alert('even');
+            return document.getElementById("text").innerHTML = "The number is even";
+         
+        }
+        else if (x % 2 === 1) {
+
+             alert('odd');
+            return document.getElementById("text").innerHTML = "The number is odd";
+           
+        }
+        else if (x % 2 === -1) {
+
+            return document.getElementById("text").innerHTML = "The number is odd";
+        }
+    }
+    </script>
+</body>
+</html>

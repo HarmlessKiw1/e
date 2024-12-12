@@ -1,0 +1,13 @@
+p{
+    margin: 0px;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.invisible{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}

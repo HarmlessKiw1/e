@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style>
+        .in{
+            width: 35px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>What is today's date? <input type="date"></h3>
+    <ul id="one">
+        <li>Pizza <input type="color" id="pizza" oninput="colorChange()"></li>
+    </ul>
+    <ul id="two">
+        <li>Video Games <input type="color" id="video" oninput="colorChange()"></li>
+    </ul>
+    <ul id="three">
+        <li>Cooking <input type="color" id="cooking" oninput="colorChange()"></li>
+    </ul>
+    <ul id="four">
+        <li>Baking <input type="color" id="baking" oninput="colorChange()"></li>
+    </ul>
+    <ul id="five">
+        <li>Ice Cream <input type="color" id="iceCream" oninput="colorChange()"></li>
+    </ul>
+    <p><input type="number" id="input" class="in" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="2" placeholder="hr">:
+        <input type="number" class="in" id="inputs" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="2" placeholder="min">:
+         <input type="number" id="inputss" class="in"
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        maxlength="2" placeholder="sec">
+        <select id="select">
+        <option value="am">am</option>
+        <option value="pm">pm</option>
+        </select></p>
+    <button onclick="seconds()">How Many Seconds Till Tomorrow?</button>
+    <p id="p"></p>
+</body>
+</html>

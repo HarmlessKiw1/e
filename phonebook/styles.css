@@ -1,0 +1,54 @@
+#results, #result, #resul{
+    margin-bottom: 10px;
+}
+input, button{
+    display: block;
+}
+input{
+    margin: 10px auto 10px auto;
+    width: 200px;
+}
+button{
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(58, 0, 124);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.heading{
+    border: 1px solid white;
+}
+table, tr, td{
+    border-collapse: collapse;
+    padding: 3px 8px 3px 8px;
+    text-align: center;
+    color: white;
+    margin: 10px auto 0px auto ;
+}
+#results, #result, #resul{
+        border: 1px solid white;
+}
+#updateButton{
+    visibility: hidden;
+}
+#deleteButton {
+    visibility: hidden;
+}
+#add {
+    visibility: hidden;
+}
+#visible{
+    visibility: visible;
+}
+#visibles {
+    visibility: visible;
+}
+#cancel{
+    visibility: hidden;
+}
+#visibless {
+    visibility: visible;
+}

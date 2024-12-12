@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+        <fieldset><legend>Phonebook</legend>
+    <div>
+    <input type="text" id="first" placeholder="First Name" maxlength="20">
+    <input type="text" id="last" placeholder="Last Name" maxlength="20">
+    <input type="text" id="number" placeholder="Phone Number" maxlength="10"/>
+</div>
+    
+<button id="addd" onclick="phone()">Add</button>
+<button id="updateButton" onclick="updateRow()">Update</button>
+<button id="deleteButton" onclick="deletess()">Confirm</button>
+<button id="cancel" onclick="cancel()">Cancel</button>
+    </fieldset>
+<table>
+    <tbody id="a">
+    <tr>
+        <td class="heading">First</td>
+        <td class="heading">Last</td>
+        <td class="heading">Phone Number</td>
+    </tr>
+    </tbody>
+</table>
+</article>
+<script src="index.js">
+</script>
+</body>
+</html>

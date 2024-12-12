@@ -1,0 +1,49 @@
+#td{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: right;
+}
+table,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#tdd{
+    border-right: 1px solid white;
+}
+.a{
+    width: 179px;
+}
+#b{
+    border-left: 1px solid white;
+}
+#c{
+    border-right: 1px solid white;
+}
+h4{
+    text-align: center;
+    width: 124px;
+}
+#tr{
+    width: 386px;
+}
+#z{
+    width: 306px;
+}
+#visible{
+    visibility: visible;
+}
+#visibles {
+    visibility: visible;
+}
+#visibless {
+    visibility: visible;
+}
+#invisible{
+    visibility: hidden;
+}
+#invisibles {
+    visibility: hidden;
+}
+#invisibless{
+    visibility: hidden;
+}

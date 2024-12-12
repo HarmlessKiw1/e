@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Gradebook</legend>
+        <p>First Name <input type="text" id="first"></p>
+        <p>Last Name <input type="text" id="last"></p>
+        <p>Grade 1 &nbsp; &nbsp; &nbsp;<input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="4" id="gradeOne" /></p>
+        <p>Grade 2 &nbsp; &nbsp; &nbsp;<input id="gradeTwo"  
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number" maxlength="4" /></p>
+        <p>Grade 3 &nbsp; &nbsp; &nbsp;<input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number" maxlength="4" id="gradeThree"></p>
+        <button onclick="calculate();">Calculate</button>
+    </fieldset>
+    <div id="div">
+        <fieldset id="field" class="invisible">
+            <legend id="legend">
+                Output
+            </legend>
+            <p><strong id="firstt"></strong></p>
+            <p id="res"></p>
+            <p id="resu"></p>
+            <p id="resul"></p>
+            <p id="result"></p>
+            <p id="results"></p>
+        </fieldset>
+    </p>
+    </div>
+</body>
+</html>

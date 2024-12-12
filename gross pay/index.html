@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id = "body">
+    <p id="visibless">Hours Worked <input type="number" placeholder="# hours" id="hours" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="2"></p>
+    <p id="visibles">Pay Rate <input type="number" placeholder="$ per hour" id="money"></p>
+    <button onclick="grossPay()" id="visible">Calculate Pay</button>
+</body>
+</html>
